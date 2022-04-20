@@ -1,0 +1,286 @@
+{
+  "gitlens.views.formats.commits.description": "${author, }${agoOrDate}",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.autoSave": "afterDelay",
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.settings.editor": "json",
+  "workbench.startupEditor": "none",
+  // jest
+  "jest.autoRun": "off",
+  // docker
+  "docker.containers.groupBy": "Compose Project Name",
+  "docker.containers.label": "ContainerName",
+  "docker.containers.description": [],
+  // git
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "merge-conflict.autoNavigateNextConflict.enabled": true,
+  "scm.alwaysShowActions": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  // gitlens
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  // linting
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["vue", "javascript", "typescript"],
+  "markdownlint.config": {
+    "MD024": false,
+    "MD033": false,
+    "MD036": false,
+    "MD041": false,
+    "MD034": false
+  },
+  "scss.lint.duplicateProperties": "warning",
+  "scss.lint.float": "warning",
+  "scss.lint.idSelector": "warning",
+  "scss.lint.important": "warning",
+  "scss.lint.unknownAtRules": "ignore",
+  // formatting
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "files.insertFinalNewline": true,
+  "html.format.endWithNewline": true,
+  "html.format.indentHandlebars": true,
+  "prettier.printWidth": 100,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.suggest.insertMode": "replace",
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // vetur
+  "vetur.completion.scaffoldSnippetSources": {
+    "workspace": "",
+    "user": "",
+    "vetur": ""
+  },
+  // appearance
+  "window.autoDetectColorScheme": true,
+  "workbench.preferredLightColorTheme": "Solarized Light",
+  "workbench.preferredDarkColorTheme": "Solarized Dark",
+  "workbench.colorTheme": "Solarized Dark",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.fontFamily": "'Operator Mono'",
+  "terminal.integrated.fontWeight": "300",
+  "terminal.integrated.fontSize": 16,
+  "editor.fontFamily": "'Operator Mono'",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.renderWhitespace": "none",
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.parameterHints.enabled": false,
+  "editor.rulers": [100, 120],
+  "editor.tokenColorCustomizations": {
+    "numbers": "#df2a63",
+    "strings": "#15b5ac",
+    "textMateRules": [
+      {
+        "name": "JSON & SCSS property keys, keywords",
+        "scope": ["support.type", "support.class", "keyword"],
+        "settings": {
+          "foreground": "#2fa84f"
+        }
+      },
+      {
+        "name": "class names",
+        "scope": [
+          "entity.name.class",
+          "entity.name.type",
+          "entity.name.namespace",
+          "entity.name.scope-resolution"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "inherited class",
+        "scope": "entity.other.inherited-class",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "storage",
+        "scope": "storage",
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "name": "attrs/props/listeners",
+        "scope": "entity.other.attribute-name",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "units",
+        "scope": "keyword.other.unit",
+        "settings": {
+          "foreground": "#15b5ac"
+        }
+      },
+      {
+        "name": "contants (e.g. true, false)",
+        "scope": "constant.language",
+        "settings": {
+          "foreground": "#bfb541"
+        }
+      },
+      {
+        "name": "regular expressions",
+        "scope": "string.regexp",
+        "settings": {
+          "foreground": "#e60a0a"
+        }
+      }
+    ]
+  },
+  "workbench.colorCustomizations": {
+    "diffEditor.insertedTextBackground": "#2fa84f50",
+    "diffEditor.removedTextBackground": "#e60a0a50",
+    "editor.findMatchBackground": "#84085390",
+    "editor.findMatchHighlightBackground": "#84085340",
+    "editor.selectionBackground": "#22c2ad3d",
+    "editor.selectionHighlightBackground": "#84085340",
+    "editorGutter.addedBackground": "#2fa84f",
+    "editorGutter.modifiedBackground": "#15b5ac",
+    "editorGutter.deletedBackground": "#e60a0a",
+    "editorOverviewRuler.addedForeground": "#2fa84f80",
+    "editorOverviewRuler.modifiedForeground": "#15b5ac",
+    "editorOverviewRuler.deletedForeground": "#e60a0a80",
+    "editorOverviewRuler.warningForeground": "#fcc75180",
+    "editorOverviewRuler.errorForeground": "#e60a0a80",
+    "gitDecoration.addedResourceForeground": "#2fa84f",
+    "gitDecoration.untrackedResourceForeground": "#2fa84f",
+    "gitDecoration.modifiedResourceForeground": "#15b5ac",
+    "gitDecoration.deletedResourceForeground": "#e60a0a",
+    "list.errorForeground": "#e60a0a99",
+    "terminal.ansiBlack": "#303030",
+    "terminal.ansiBrightBlack": "#999999",
+    "terminal.ansiRed": "#e60a0a80",
+    "terminal.ansiBrightRed": "#e60a0a",
+    "terminal.ansiGreen": "#2fa84f",
+    "terminal.ansiBrightGreen": "#2fa84f",
+    "terminal.ansiYellow": "#fcc751",
+    "terminal.ansiBrightYellow": "#fcc751",
+    "terminal.ansiBlue": "#268bd2",
+    "terminal.ansiBrightBlue": "#268bd2",
+    "terminal.ansiMagenta": "#df2a63",
+    "terminal.ansiBrightMagenta": "#f2828f",
+    "terminal.ansiCyan": "#15b5ac",
+    "terminal.ansiBrightCyan": "#20e1d1"
+  },
+  "peacock.affectTitleBar": false,
+  "peacock.affectActivityBar": false,
+  "peacock.favoriteColors": [
+    {
+      "name": "Ruby Red",
+      "value": "#960d03"
+    },
+    {
+      "name": "Node Green",
+      "value": "#215732"
+    },
+    {
+      "name": "Vue Green",
+      "value": "#42b883"
+    },
+    {
+      "name": "GraphQL Pink",
+      "value": "#e1009a"
+    },
+    {
+      "name": "Ember Orange",
+      "value": "#e04f39"
+    },
+    {
+      "name": "Pando Ruby",
+      "value": "#df2a63"
+    },
+    {
+      "name": "Pando Denim",
+      "value": "#022682"
+    },
+    {
+      "name": "Pando Spruce",
+      "value": "#0a7986"
+    },
+    {
+      "name": "Terraform Blue",
+      "value": "#623ce4"
+    },
+    {
+      "name": "Nuxt Blue",
+      "value": "#2f495e"
+    },
+    {
+      "name": "JavaScript Yellow",
+      "value": "#f7df1e"
+    },
+    {
+      "name": "Camel Orange",
+      "value": "#e97826"
+    },
+    {
+      "name": "API Gateway Purple",
+      "value": "#7646d3"
+    },
+    {
+      "name": "Walmart Blue",
+      "value": "#0071dc"
+    },
+    {
+      "name": "Kubernetes Blue",
+      "value": "#3663dd"
+    },
+    {
+      "name": "Argo CD Orange",
+      "value": "#dd7345"
+    },
+    {
+      "name": "Stone Gray",
+      "value": "#6d6d6d"
+    }
+  ],
+  "terminal.integrated.profiles.osx": {
+    "zsh": {
+      "path": "zsh",
+      "args": ["-l", "-i"]
+    }
+  },
+  "shellcheck.exclude": ["1091"],
+  "workbench.iconTheme": "vscode-icons",
+  "editor.suggestSelection": "first",
+  "projectManager.git.baseFolders": ["~/Developer"],
+  "security.workspace.trust.untrustedFiles": "open",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "githubPullRequests.focusedMode": false,
+  "githubPullRequests.createOnPublishBranch": "never",
+  "window.zoomLevel": 1
+}
