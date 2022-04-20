@@ -60,5 +60,15 @@
   {
     "key": "cmd+k cmd+j",
     "command": "workbench.action.toggleMaximizedPanel"
+  },
+  {
+    "key": "cmd+k g",
+    "command": "gitlens.gitCommands",
+    "when": "!gitlens:disabled && config.gitlens.keymap == 'chorded'"
+  },
+  {
+    "key": "alt+cmd+g /",
+    "command": "-gitlens.gitCommands",
+    "when": "!gitlens:disabled && config.gitlens.keymap == 'chorded'"
   }
 ]
