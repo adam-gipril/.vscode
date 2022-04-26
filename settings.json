@@ -204,6 +204,10 @@
     {
       "name": "Stone Gray",
       "value": "#6d6d6d"
+    },
+    {
+      "name": "Nuxt Light Green",
+      "value": "#86edc0"
     }
   ],
   "jest.autoRun": "off",
