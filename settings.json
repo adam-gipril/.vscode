@@ -5,6 +5,7 @@
   "explorer.confirmDragAndDrop": false,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
+  "git.autofetch": true,
   "workbench.settings.editor": "json",
   "workbench.startupEditor": "none",
   "explorer.compactFolders": false,
@@ -210,7 +211,6 @@
       "value": "#86edc0"
     }
   ],
-  "jest.autoRun": "off",
   "docker.containers.groupBy": "Compose Project Name",
   "docker.containers.label": "ContainerName",
   "docker.containers.description": [],
@@ -222,9 +222,7 @@
   },
   "gitlens.hovers.currentLine.over": "line",
   "gitlens.currentLine.enabled": false,
-  "gitlens.codeLens.scopes": [
-    "document"
-  ],
+  "gitlens.codeLens.scopes": ["document"],
   "gitlens.codeLens.recentChange.command": "gitlens.openCommitOnRemote",
   "gitlens.hovers.currentLine.enabled": false,
   "gitlens.hovers.annotations.enabled": false,
@@ -233,11 +231,7 @@
   "gitlens.views.fileHistory.avatars": false,
   "gitlens.views.branches.avatars": false,
   "gitlens.views.tags.avatars": false,
-  "gitlens.blame.highlight.locations": [
-    "gutter",
-    "line"
-  ],
-  "gitlens.changes.locations": [
-    "gutter"
-  ]
+  "gitlens.blame.highlight.locations": ["gutter", "line"],
+  "gitlens.changes.locations": ["gutter"],
+  "window.zoomLevel": 1
 }
