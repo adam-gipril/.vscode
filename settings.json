@@ -233,5 +233,30 @@
   "gitlens.views.tags.avatars": false,
   "gitlens.blame.highlight.locations": ["gutter", "line"],
   "gitlens.changes.locations": ["gutter"],
+  "vsicons.presets.tsOfficial": true,
+  "vsicons.presets.jsOfficial": true,
+  "vsicons.presets.hideExplorerArrows": true,
+  "vsicons.associations.folders": [
+    { "icon": "ibotta", "extensions": [".ibotta"], "format": "svg" },
+    { "icon": "tf", "extensions": ["terraform"], "format": "svg" },
+    { "icon": "helper", "extensions": ["env"], "format": "svg" },
+    { "icon": "config", "extensions": ["production"], "format": "svg" },
+    { "icon": "config", "extensions": ["staging"], "format": "svg" },
+    { "icon": "db", "extensions": ["storage"], "format": "svg" },
+    { "icon": "controller", "extensions": ["cdn"], "format": "svg" },
+    { "icon": "www", "extensions": ["dns"], "format": "svg" },
+    { "icon": "plugin", "extensions": ["actions"], "format": "svg" },
+    { "icon": "script", "extensions": ["workflows"], "format": "svg" },
+    { "icon": "module", "extensions": ["composables"], "format": "svg" }
+  ],
+  "files.associations": {
+    "CODEOWNERS": "plaintext"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "window.zoomLevel": 1
 }
